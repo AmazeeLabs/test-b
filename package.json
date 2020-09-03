@@ -1,6 +1,20 @@
 {
-  "name": "test-b",
-  "version": "1.0.0",
+  "name": "@amazeelabs/test-b",
+  "version": "1.0.5",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "test-a": "^1.0.0"
+  },
+  "config": {
+    "git-publish": {
+      "url": "git@github.com:AmazeeLabs/test-b.git",
+      "branch": "master"
+    }
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "http://localhost:4873"
+  },
+  "gitHead": "f86a4ed09f00bfb8ee00936cd7fee4879dcf374a"
 }
