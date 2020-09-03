@@ -1,6 +1,6 @@
 {
   "name": "@amazeelabs/test-b",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
@@ -16,5 +16,5 @@
     "access": "restricted",
     "registry": "http://localhost:4873"
   },
-  "gitHead": "f86a4ed09f00bfb8ee00936cd7fee4879dcf374a"
+  "gitHead": "09f263f38195a5bddc886146252b44e097b7c341"
 }
